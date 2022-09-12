@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- *main:printing combo
+ *main: printing combo Inventing is a combination of brains and materials,
+ * The more brains you use, the less material you need.
  *
  *Return: Always 0 (Success)
  */
