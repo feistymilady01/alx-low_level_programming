@@ -1,11 +1,10 @@
 #include <stdio.h>
 /**
- *main: printing combo Inventing is a combination of brains and materials,
- * The more brains you use, the less material you need.
+ *main -print three combination                                                                                             
  *
  *Return: Always 0 (Success)
- */
-int main(void)
+ */     
+int  main(void)
 {
 	int c, i;
 
