@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main -print three combination                                                                                             
+ *main -print three combination
  *
  *Return: Always 0 (Success)
  */     
