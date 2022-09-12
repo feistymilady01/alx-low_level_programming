@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main 0printing combo
+ *main :printing combo
  *
  *Return: Always 0 (Success)
  */
@@ -12,7 +12,7 @@ int main(void)
 	{
 		for (i = '0'; i <= '9'; i++)
 		{
-			if (c <i)
+			if (c < i)
 			{
 				putchar(c);
 				putchar(i);
