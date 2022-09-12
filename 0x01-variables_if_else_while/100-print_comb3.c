@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main :printing combo
+ *main:printing combo
  *
  *Return: Always 0 (Success)
  */
