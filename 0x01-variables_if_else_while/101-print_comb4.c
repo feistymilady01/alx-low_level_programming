@@ -8,16 +8,16 @@ int main(void)
 {
 	int i, c, e;
 
-	for (i = 0; i <= 8; i++)
+	for (i = 0; i <= 6; i++)
 	{
-		for (c = i + 1; c <= 9; c++)
+		for (c = i + 1; c <= 7; c++)
 		{
-			for (e = c + 1; e <= 10; e++)
+			for (e = c + 1; e <= 8; e++)
 			{
 				putchar((i % 10) + '0');
 				putchar((c % 10) + '0');
 				putchar((e % 10) + '0');
-				if (i == 7 && c == 8 && e == 9)
+				if (i == 6 && c == 7 && e == 8)
 					continue;
 				putchar(',');
 				putchar(' ');
