@@ -8,22 +8,19 @@ int main(void)
 {
 	int i, c, e;
 
-	for (i = 48; i <= 68; i++)
+	for (i = 0; i <= 8; i++)
 	{
-		for (c = 49; c <= 69; c++)
+		for (c = i + 1; c <= 9; c++)
 		{
-			for (e = 50; e <= 70; e++)
+			for (e = c + 1; e <= 10; e++)
 			{
-				if (e > c && c > i)
-				{
-					putchar(i);
-					putchar(c);
-					if (i != 50 || c != 55)
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
+				putchar((i % 10) + '0');
+				putchar((c % 10) + '0');
+				putchar((e % 10) + '0');
+				if (i == 7 && c == 8 && e == 9)
+					continue;
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
