@@ -1,11 +1,23 @@
-#include "unistd.h"
+#include "main.h"
+
 /**
- * main - Entry point
+ *main - printing _putchar
  *
- * Return: Always 0 (Success)
- on error, 1 is returned, and errno is set
- */
-int _putchar(char c)
+ *Return: Always 0.
+ *
+ * */
+
+int main(void)
 {
-	return (write(1, &c, 1));
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
+	return (0);
 }
