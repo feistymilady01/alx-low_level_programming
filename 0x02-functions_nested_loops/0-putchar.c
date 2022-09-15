@@ -1,19 +1,11 @@
-#include "holberton.h"
+#include "unistd.h"
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
+ on error, 1 is returned, and errno is set
  */
-int main(void)
+int _putchar(char c)
 {
-	char *sh = "Holberton";
-
-	while (*sh)
-	{
-		_putchar(*sh);
-		sh++;
-	}
-	_putchar('\n');
-
-	return (0);
+	return (write(1, &c, 1));
 }
