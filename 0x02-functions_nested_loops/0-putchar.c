@@ -1,13 +1,19 @@
-#include <stdio.h>
-#include <unistd.h>
-
-/*
- * main: prints _putchar followed by a newline
+#include "holberton.h"
+/**
+ * main - Entry point
  *
- * Return: Always success(0)
+ * Return: Always 0 (Success)
  */
-int  main(void)
+int main(void)
 {
-	write(2, "_putchar", 2);
+	char *sh = "Holberton";
+
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
+
 	return (0);
 }
