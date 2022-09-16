@@ -9,7 +9,7 @@ int _isupper(int);
 int _isdigit(int);
 void print_line(int n);
 void print_diagonal(int n);
-int print_square(int size);
+void print_square(int size);
 void print_triangle(int size);
 void print_number(int n);
 int mul(int, int);
