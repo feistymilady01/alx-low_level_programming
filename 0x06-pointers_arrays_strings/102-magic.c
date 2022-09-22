@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * encoding
+ * description:encoding magic
+ *return: success (0)
  */
 int main(void)
 {
