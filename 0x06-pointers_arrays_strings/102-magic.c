@@ -1,5 +1,10 @@
 #include <stdio.h>
-
+/**
+ * rot13 - encodes magic
+ * @s: string to be encoded
+ *
+ * Return: the resulting string
+ */
 int main(void)
 {
 int n;
